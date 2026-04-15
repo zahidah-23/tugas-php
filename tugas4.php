@@ -1,5 +1,5 @@
 <?php
-$conn = mysqli_connect("localhost", "root", "", "db_sql");
+$conn = mysqli_connect("localhost", "root", "", "db.sql");
 
 // proses update
 if (isset($_POST['update'])) {
